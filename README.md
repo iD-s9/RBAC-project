@@ -18,7 +18,7 @@ By default, Azure accounts often rely on a single "Owner" identity with full con
 |---|---|
 | Before: single Owner role, no team structure | [`before-owner-role.png`](./Screenshots/before-owner-role.png) |
 | Before: Entra ID with only one user | [`before-etra id-users.png`](./Screenshots/before-etra%20id-users.png) |
-| After: Developers and Auditors groups created | [`After creating the Entra ID users...png`](./Screenshots/PLACEHOLDER) |
+| After: Developers and Auditors groups created | [`After creating the Entra ID users.png`](./Screenshots/PLACEHOLDER) |
 | After: scoped role assignments (VM Operator, Reader) | [`After role assignments.png`](./Screenshots/After%20role%20assignments.png) |
 | MFA enforcement confirmed on test account | [`mfa-proof.png`](./Screenshots/mfa-proof.png) |
 
