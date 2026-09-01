@@ -8,7 +8,7 @@ By default, Azure accounts often rely on a single "Owner" identity with full con
 ## What I built
 
 - Created two Entra ID (Azure AD) test users and grouped them by function: a **Developers** group and an **Auditors** group, instead of relying on a single all-powerful account.
-- Wrote a **custom RBAC role** (`VM Operator - Start/Stop Only`) that permits starting and stopping virtual machines but explicitly excludes delete or configuration-change permissions. See [`policies/vm-operator-role.json`](./policies/vm-operator-role.json).
+- Wrote a **custom RBAC role** (`VM Operator - Start/Stop Only`) that permits starting and stopping virtual machines but explicitly excludes delete or configuration-change permissions. See [`policies/vm-operator-role.json`](./Policies/VM-Operator.json).
 - Scoped the custom role's assignable scope to a single resource group (`rg-security-project`), rather than the whole subscription, to limit blast radius.
 - Assigned the built-in **Reader** role to the Auditors group, giving read-only visibility with no ability to modify resources.
 - Enabled **MFA via Security Defaults** at the tenant level, enforcing multi-factor authentication on every account verified by signing in as the test-developer account and confirming the Microsoft Authenticator prompt appeared.
