@@ -14,7 +14,6 @@ By default, Azure accounts often rely on a single "Owner" identity with full con
 - Enabled **MFA via Security Defaults** at the tenant level, enforcing multi-factor authentication on every account verified by signing in as the test-developer account and confirming the Microsoft Authenticator prompt appeared.
 
 ## Before / After
-
 | State | Screenshot |
 |---|---|
 | Before: single Owner role, no team structure | [`before-owner-role.png`](./screenshots/before-owner-role.png) |
